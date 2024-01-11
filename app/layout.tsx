@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import ModeToggle from '@/components/ModeToggle';
-import NavigationHandler from '@/components/NavigationHandler';
+import NavigationMenu from '@/components/NavigationMenu';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,7 +31,7 @@ export default function RootLayout({
 
           <div className="fixed bottom-0 mb-4 flex w-full justify-center gap-4">
             <ModeToggle />
-            <NavigationHandler />
+            <NavigationMenu />
           </div>
         </ThemeProvider>
       </body>

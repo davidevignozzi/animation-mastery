@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Button } from './ui/button';
 
-const NavigationHandler = () => {
+const NavigationMenu = () => {
   const pathname = usePathname();
 
   const getMenuTitle = () => {
@@ -42,4 +42,4 @@ const NavigationHandler = () => {
     </DropdownMenu>
   );
 };
-export default NavigationHandler;
+export default NavigationMenu;
