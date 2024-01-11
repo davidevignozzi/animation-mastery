@@ -13,4 +13,15 @@ const project1: Project = {
   link: '/projects/trial'
 };
 
-export const projectsArray: Project[] = [project1];
+const TextGradientOpacityOnScrollProject: Project = {
+  name: 'Text Gradient Opacity on Scroll',
+  description:
+    'A web animation tutorial featuring a gradient text scroll opacity effect using Nextjs and Framer Motion.',
+  codeLink: '/',
+  link: '/projects/text-gradient-opacity-on-scroll'
+};
+
+export const projectsArray: Project[] = [
+  project1,
+  TextGradientOpacityOnScrollProject
+];
