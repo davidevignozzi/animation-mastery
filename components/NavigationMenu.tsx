@@ -10,6 +10,20 @@ import {
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
 import { Button } from './ui/button';
+import { projectsArray } from '@/lib/projectsArray';
+
+interface MenuItemProps {
+  name: string;
+  link: string;
+}
+const MenuItem = (menuItemProps: MenuItemProps) => {
+  const { name, link } = menuItemProps;
+  return (
+    <Link href={link}>
+      <DropdownMenuItem className="capitalize">{name}</DropdownMenuItem>
+    </Link>
+  );
+};
 
 const NavigationMenu = () => {
   const pathname = usePathname();
@@ -32,9 +46,9 @@ const NavigationMenu = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="center">
-        <Link href={'/projects/trial'}>
-          <DropdownMenuItem>Trial</DropdownMenuItem>
-        </Link>
+        {projectsArray.map((prj, idx) => (
+          <MenuItem key={idx} name={prj.name} link={prj.link} />
+        ))}
         <Link href="/">
           <DropdownMenuItem>Home</DropdownMenuItem>
         </Link>
