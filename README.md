@@ -14,7 +14,8 @@ Open to suggestions, corrections, and collaborations! Feel free to open issues o
 🚧 **Work in Progress:**
 This repository is an ongoing journal, a visual diary of my exploration into the vast possibilities of JavaScript animations. Every day brings new learning and creative application of knowledge.
 
-📚 **Recommended Resources:
-🚧 Work in Progress**
+📚 **Recommended Resources:**
+
+1. https://www.youtube.com/watch?v=zqPy1bHUjrg
 
 Join me in uncovering the potential of animations in JavaScript. ✨
