@@ -32,8 +32,8 @@ const NavigationMenu = () => {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="center">
-        <Link href={'/projects/animation1'}>
-          <DropdownMenuItem>Animation 1</DropdownMenuItem>
+        <Link href={'/projects/trial'}>
+          <DropdownMenuItem>Trial</DropdownMenuItem>
         </Link>
         <Link href="/">
           <DropdownMenuItem>Home</DropdownMenuItem>
