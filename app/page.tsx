@@ -15,6 +15,7 @@ export default function Home() {
             description={prj.description}
             codeLink={prj.codeLink}
             link={prj.link}
+            reference={prj.reference}
           />
         ))}
       </main>

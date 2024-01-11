@@ -34,7 +34,7 @@ const NavigationMenu = () => {
         return 'home';
 
       default:
-        return pathname.slice(10); // remove '/projects/'
+        return pathname.slice(10).split('-').join(' '); // remove '/projects/, replace - with ' '
     }
   };
 
